@@ -1,0 +1,154 @@
+{
+  "restaurants": [
+    {
+      "id": "1",
+      "name": "Pelita Nasi Kandar",
+      "category": "Indian",
+      "imageUrl": "https://live.staticflickr.com/5285/5287392317_e85d014042_b.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Sushi Mentai",
+      "category": "Japanese",
+      "imageUrl": "https://live.staticflickr.com/65535/49103425618_0c0414c653_b.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Halab KL",
+      "category": "Middle Eastern",
+      "imageUrl": "https://media-cdn.tripadvisor.com/media/photo-s/18/36/f4/c9/halab-kl.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Two Sons Bistro",
+      "category": "Western",
+      "imageUrl": "https://1.bp.blogspot.com/-Ynp9Jluao1A/Va81qOBDj6I/AAAAAAABRaI/1Sy1TcNYKIw/s1600/DSCF7449-001.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Nasi Kerabu MokNab",
+      "category": "Malaysian",
+      "imageUrl": "https://lh3.googleusercontent.com/p/AF1QipMFoSXv-HtZhWNaiqNdlROwPSW0PmFMBvddLsxL=s1360-w1360-h1020?auto=format&w=1053"
+    },
+    {
+      "id": "6",
+      "name": "Jibby Chow",
+      "category": "Chinese",
+      "imageUrl": "https://seraigroup.com.my/wp-content/uploads/elementor/thumbs/IMG_1551.min_-qqy16d3iaha91uqu4liz4twdx02t3cmwm39lt45uyo.jpg"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "1",
+      "restaurantId": "1",
+      "rating": 5,
+      "comment": "An authentic Malaysian restaurant with staff in typical Malaysian clothes. The portions are not as generous as the prices, but the food is good. The place is spacious and large with plenty of places to sit. There are many people working here and it doesn't take a few minutes before someone arrives and takes your order. They are fast here and you get your food pretty quickly.",
+      "createdAt": "2025-06-19T09:00:00Z"
+    },
+    {
+      "id": "2",
+      "restaurantId": "2",
+      "rating": 4,
+      "comment": "Fresh and affordable sushi.",
+      "createdAt": "2025-06-19T10:00:00Z"
+    },
+    {
+      "id": "3",
+      "restaurantId": "3",
+      "rating": 5,
+      "comment": "Authentic Middle Eastern flavors and generous portions. The hummus was heavenly!",
+      "createdAt": "2025-06-19T11:00:00Z"
+    },
+    {
+      "id": "4",
+      "restaurantId": "3",
+      "rating": 4,
+      "comment": "Lovely atmosphere and great service. A bit pricey but worth it for special occasions.",
+      "createdAt": "2025-06-19T12:30:00Z"
+    },
+    {
+      "id": "5",
+      "restaurantId": "4",
+      "rating": 3,
+      "comment": "Decent Western food but nothing extraordinary. The mac and cheese was too salty.",
+      "createdAt": "2025-06-19T13:15:00Z"
+    },
+    {
+      "id": "6",
+      "restaurantId": "4",
+      "rating": 4,
+      "comment": "Cosy spot with good pasta and attentive staff. Will come again for the desserts!",
+      "createdAt": "2025-06-19T14:10:00Z"
+    },
+    {
+      "id": "7",
+      "restaurantId": "1",
+      "rating": 4,
+      "comment": "Flavor-packed curries and fast service. Just wish the place had more parking!",
+      "createdAt": "2025-06-19T15:00:00Z"
+    },
+    {
+      "id": "8",
+      "restaurantId": "2",
+      "rating": 2,
+      "comment": "Not the best visit. The sushi rice was undercooked and the staff seemed overwhelmed.",
+      "createdAt": "2025-06-19T16:10:00Z"
+    },
+    {
+      "id": "9",
+      "restaurantId": "4",
+      "rating": 5,
+      "comment": "Absolutely loved the steak—juicy, flavorful, and cooked to perfection. 10/10!",
+      "createdAt": "2025-06-19T17:20:00Z"
+    },
+    {
+      "id": "10",
+      "restaurantId": "3",
+      "rating": 3,
+      "comment": "The kebabs were decent but the wait time was too long even though the restaurant wasn't full.",
+      "createdAt": "2025-06-19T18:05:00Z"
+    },
+    {
+      "id": "11",
+      "restaurantId": "1",
+      "rating": 5,
+      "comment": "I ordered Nasi Kandar with their popular Fried Chicken & vegetables. My husband ordered Nasi Kandar with Fish + Crab + Vegetables. They are delicious & the limau ice is freaking fresh only RM 2-3 per cup ! The servants were also wearing unique national uniform & made atmosphere was special ! Open 24hours, they became legend culinary place in KL. You must try it.",
+      "createdAt": "2025-06-19T09:00:00Z"
+    },
+    {
+      "id": "12",
+      "restaurantId": "1",
+      "rating": 5,
+      "comment": "Been there with my friends, try the famous Nasi Kandar in town. The portion was so large, we complete it with the yummy Teh Tarik Ice, only spent 120 RM for 6 person . Hoho worth the price 👍",
+      "createdAt": "2025-06-19T09:00:00Z"
+    },
+    {
+      "id": "13",
+      "restaurantId": "1",
+      "rating": 5,
+      "comment": "First time tasting nasi kandar here, it's quite unique, rice with chicken, shrimp or other types of side dishes, then doused with several types of sauce, the food here is without coconut milk.",
+      "createdAt": "2025-06-19T09:00:00Z"
+    },
+    {
+      "id": "14",
+      "restaurantId": "1",
+      "rating": 5,
+      "comment": "Best nasi kandar in town!",
+      "createdAt": "2025-06-19T09:00:00Z"
+    },
+    {
+      "id": "ac01",
+      "rating": 1.5,
+      "comment": "The female staff who take my order was very rude. I hope management can take action towards her since it can affect the good name of Two Sons.",
+      "restaurantId": "4",
+      "createdAt": "2025-06-22T21:18:24.973Z"
+    },
+    {
+      "id": "c0a9",
+      "rating": 5,
+      "comment": "HANDS DOWN THE BEST NASI KERABU EVER YOU CAN GET IN KL!",
+      "restaurantId": "5",
+      "createdAt": "2025-06-22T22:23:17.763Z"
+    }
+  ]
+}
