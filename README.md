@@ -1,50 +1,45 @@
-# Welcome to your Expo app 👋
+# 🍽️ BestFoody - React Native Restaurant Review App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+BestFoody is a simple restaurant listing and review app built using **React Native** with **Expo** and **TypeScript**. Users can browse restaurants, view details, submit reviews with star ratings, and filter by categories.
 
-## Get started
+---
 
-1. Install dependencies
+## 🚀 Getting Started
 
-   ```bash
-   npm install
-   ```
+Follow the steps below to run this project locally on your machine.
 
-2. Start the app
+### 1. Clone the Repository
+```git clone https://github.com/ahmadnasaiei/restaurant-listing-bestfoody.git```
+```cd restaurant-review-bestfoody```
 
-   ```bash
-   npx expo start
-   ```
+### 2. Install Dependencies
+```npm install```
+# or
+```yarn install```
 
-In the output, you'll find options to open the app in a
+### 3. Install Expo CLI (if not installed)
+```npm install -g expo-cli```
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### 4. Run the App
+```npx expo start```
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### 5. Run local API json-server
+```npm run start:api```
 
-## Get a fresh project
+🔌 Dependencies
+React Native
+Expo
+expo-router
+react-native-star-rating-widget
+@expo/vector-icons
+moment (for date formatting)
 
-When you're ready, run:
 
-```bash
-npm run reset-project
-```
+⚠️ Important: API Base URL Configuration
+The mock API was done locally on json-server and testing the app on a physical device (or emulator) will need you to update the BASE_URL in your API configuration file (e.g., services/RestaurantAPI.js) from:
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+```const BASE_URL = 'http://localhost:3000';```
 
-## Learn more
+To your local IPv4 address (found via ipconfig on Windows or ifconfig on macOS/Linux), for example:
 
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+```const BASE_URL = 'http://192.168.1.xxxx:3000';```
